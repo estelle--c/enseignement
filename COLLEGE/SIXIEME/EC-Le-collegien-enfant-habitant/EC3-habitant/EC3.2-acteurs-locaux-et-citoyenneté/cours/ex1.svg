@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="Nouveau document 1">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path3973"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path3976"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-3"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3976-9"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart-6"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3973-7"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5075"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5077"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5079"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5081"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-2"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3976-99"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart-4"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3973-4"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5193"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5195"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5197"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5199"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-6"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3976-2"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.175"
+     inkscape:cx="312.21461"
+     inkscape:cy="838.41954"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="745"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2985"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Century Schoolbook L;font-style:normal;font-weight:500;font-size:18px;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Century Schoolbook L Medium;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr"><flowRegion
+         id="flowRegion2987"><rect
+           id="rect2989"
+           width="262.85715"
+           height="58.57143"
+           x="215.71428"
+           y="30.933611" /></flowRegion><flowPara
+         id="flowPara2991"></flowPara></flowRoot>    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.87577641;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect2993"
+       width="225.19965"
+       height="43.788818"
+       x="278.66016"
+       y="28.014357" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.87577641;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect2995"
+       width="212.68855"
+       height="55.048801"
+       x="108.50932"
+       y="110.58756" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.87577641;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect2997"
+       width="233.95741"
+       height="56.299911"
+       x="421.28659"
+       y="109.33645" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.87577641;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect2999"
+       width="319.03284"
+       height="66.308784"
+       x="218.60693"
+       y="274.48285" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.87577641;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect2999-1"
+       width="319.03284"
+       height="66.308784"
+       x="220.4836"
+       y="403.97266" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.87577641px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:url(#Arrow1Lend)"
+       d="m 374.99556,395.84045 0,-48.79327"
+       id="path3019"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.87577641px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart)"
+       d="m 367.4889,80.56094 0,178.90861"
+       id="path4437"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.87577641px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart)"
+       d="M 506.36202,171.89191 C 422.5377,258.21844 422.5377,258.21844 422.5377,258.21844"
+       id="path4439"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.87577641px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart)"
+       d="m 248.63353,174.39413 c 60.05324,87.57764 60.05324,87.57764 60.05324,87.57764"
+       id="path4441"
+       inkscape:connector-curvature="0" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5003"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+       transform="matrix(0.8757764,0,0,0.8757764,197.33807,17.187849)"><flowRegion
+         id="flowRegion5005"><rect
+           id="rect5007"
+           width="181.42857"
+           height="60"
+           x="94.285713"
+           y="392.36218" /></flowRegion><flowPara
+         id="flowPara5011">participe à</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5015"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+       transform="matrix(0.8757764,0,0,0.8757764,101.00266,0.92342981)"><flowRegion
+         id="flowRegion5017"><rect
+           id="rect5019"
+           width="74.285713"
+           height="37.142857"
+           x="154.28572"
+           y="242.36218" /></flowRegion><flowPara
+         id="flowPara5021">élit</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5015-5"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+       transform="matrix(0.8757764,0,0,0.8757764,198.98241,-26.004396)"><flowRegion
+         id="flowRegion5017-7"><rect
+           id="rect5019-3"
+           width="74.285713"
+           height="37.142857"
+           x="154.28572"
+           y="242.36218" /></flowRegion><flowPara
+         id="flowPara5021-2">élit</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5015-1"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+       transform="matrix(0.8757764,0,0,0.8757764,300.32226,-18.497742)"><flowRegion
+         id="flowRegion5017-75"><rect
+           id="rect5019-5"
+           width="74.285713"
+           height="37.142857"
+           x="154.28572"
+           y="242.36218" /></flowRegion><flowPara
+         id="flowPara5021-0">élit</flowPara></flowRoot>    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.87577641;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect2993-8"
+       width="225.19965"
+       height="43.788818"
+       x="279.64062"
+       y="574.08582" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.87577641;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect2995-8"
+       width="212.68855"
+       height="55.048801"
+       x="109.4898"
+       y="656.659" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.87577641;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect2997-1"
+       width="233.95741"
+       height="56.299911"
+       x="422.26703"
+       y="655.4079" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.87577641;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect2999-5"
+       width="319.03284"
+       height="66.308784"
+       x="219.58742"
+       y="820.55432" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.87577641;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect2999-1-8"
+       width="319.03284"
+       height="66.308784"
+       x="221.4641"
+       y="950.04407" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.87577641px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:url(#Arrow1Lend)"
+       d="m 375.97604,941.9119 0,-48.7933"
+       id="path3019-4"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.87577641px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart)"
+       d="m 368.46938,626.63237 0,178.90863"
+       id="path4437-8"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.87577641px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart)"
+       d="M 507.3425,717.96334 C 423.51818,804.2899 423.51818,804.2899 423.51818,804.2899"
+       id="path4439-1"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.87577641px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart)"
+       d="m 249.61401,720.46556 c 60.05324,87.57764 60.05324,87.57764 60.05324,87.57764"
+       id="path4441-8"
+       inkscape:connector-curvature="0" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5003-0"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+       transform="matrix(0.8757764,0,0,0.8757764,198.31855,563.25928)"><flowRegion
+         id="flowRegion5005-4"><rect
+           id="rect5007-7"
+           width="181.42857"
+           height="60"
+           x="94.285713"
+           y="392.36218" /></flowRegion><flowPara
+         id="flowPara5011-9">participe à</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5015-54"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+       transform="matrix(0.8757764,0,0,0.8757764,101.98314,546.99486)"><flowRegion
+         id="flowRegion5017-5"><rect
+           id="rect5019-7"
+           width="74.285713"
+           height="37.142857"
+           x="154.28572"
+           y="242.36218" /></flowRegion><flowPara
+         id="flowPara5021-01">élit</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5015-5-9"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+       transform="matrix(0.8757764,0,0,0.8757764,199.96289,520.06704)"><flowRegion
+         id="flowRegion5017-7-5"><rect
+           id="rect5019-3-1"
+           width="74.285713"
+           height="37.142857"
+           x="154.28572"
+           y="242.36218" /></flowRegion><flowPara
+         id="flowPara5021-2-2">élit</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5015-1-4"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+       transform="matrix(0.8757764,0,0,0.8757764,301.30274,527.57369)"><flowRegion
+         id="flowRegion5017-75-2"><rect
+           id="rect5019-5-5"
+           width="74.285713"
+           height="37.142857"
+           x="154.28572"
+           y="242.36218" /></flowRegion><flowPara
+         id="flowPara5021-0-2">élit</flowPara></flowRoot>  </g>
+</svg>
