@@ -1,0 +1,200 @@
+\documentclass[a4paper,12pt]{exam}
+
+%printanswers % Pour ne pas imprimer les réponses (énoncé)
+\addpoints % Pour compter les points
+\pointsinrightmargin % Pour avoir les points dans la marge à droite
+%\bracketedpoints % Pour avoir les points entre crochets
+%\nobracketedpoints % Pour ne pas avoir les points entre crochets
+\pointformat{.../\textbf{\themarginpoints}}
+% \noaddpoints % pour ne pas compter les points
+%\qformat{\textbf{Question\thequestion}\quad(\thepoints)\hfill} % Pour définir le style des questions (facultatif)
+%\qformat{\thequestiontitle \dotfill \thepoints}
+
+ %\usepackage[utf8]{inputenc} %pour pdflatex
+      \usepackage{fontspec}  %pour xelatex
+     % \usepackage{xunicode}  %pour xelatex
+      \usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{wasysym}
+\usepackage{marvosym}
+\usepackage{cwpuzzle}
+\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont{Linux Libertine}
+\setmainfont{Century Schoolbook L}
+%\usepackage[margin=1cm]{geometry}
+    \usepackage[francais]{babel}
+    \title{DS - Histoire - L'Orient ancien}
+    
+ 
+   
+     
+    % Si on imprime les réponses
+    \ifprintanswers
+    \newcommand{\rep}[1]{}
+    \newcommand{\chariot}{}
+    \else
+    %\newcommand{\rep}[1]{\makeemptybox{#1}}
+    \newcommand{\rep}[1]{\fillwithdottedlines{#1}}
+    \newcommand{\chariot}{\newpage}
+    \fi
+
+ \usepackage{geometry}
+ \geometry{ hmargin=1.8cm, vmargin=0.5cm } 
+
+\makeatletter
+\renewcommand\section{\@startsection
+{section}{1}{0mm}    
+{\baselineskip}
+{0.5\baselineskip}
+{\normalfont\normalsize\textbf}}
+\makeatother
+%\usepackage{titling}
+%\renewcommand{\maketitlehooka}
+
+ 
+\begin{document}
+
+\begin{minipage}{4cm}
+  Nom :
+  
+  Prénom :
+  
+  Classe : 
+  
+  Date : 
+\end{minipage}
+\hfill
+\begin{minipage}{3.5cm}
+
+{\small \begin{questions} \question[1] Orthographe et expression
+\question[1] Présentation \end{questions}
+}
+\end{minipage}
+
+
+\vspace{1cm}
+
+\begin{center}
+
+{\Large DS - Histoire - Rome - L'Empire}
+
+\vspace{0.5cm}
+  \end{center}
+Appréciation : \hfill {\large …/\numpoints\ } %\quad\quad …/\textbf{20}
+
+%Compétence à valider : \\
+%\begin{tabular}{|c|c|c|c|}
+%\hline  & Validé & En cours d'acquisition & Non validée \\ 
+%\hline C5 : Avoir des outils \\pour comprendre l'unité \\et la complexité du monde &  &  &  \\ 
+%\hline 
+%\end{tabular} 
+
+\section{Connaissances}
+\begin{questions} % Début de l'examen. Débute la numérotation des questions
+\question [1] Qui a fondé l'Empire ?\\
+ \begin{oneparchoices}
+\choice Auguste
+ \choice Caracalla
+ \choice Trajan
+ %\CorrectChoice Auguste
+ \end{oneparchoices}
+ \vspace{0.5cm}
+
+\question [1] Où est Rome ? 
+  \begin{oneparchoices}
+ \choice En Grèce
+  \choice En Italie
+  \choice En Gaule
+  %\CorrectChoice En Italie
+  \end{oneparchoices}
+  \vspace{0.5cm}
+  
+  \question [1] Quelle est la capitale des Trois Gaules ?\\
+   \begin{oneparchoices}
+  \choice Paris
+   \choice Lyon
+   \choice Marseille
+   %\CorrectChoice Lyon
+   \end{oneparchoices}
+   \vspace{0.5cm}
+ 
+   \question [1] En quelle année tous les habitants de l'Empire sont-ils devenus citoyens romains ?\\
+    \begin{oneparchoices}
+   \choice 78 av J.-C.
+    \choice 212
+    \choice 318
+    %\CorrectChoice 212
+    \end{oneparchoices}
+    \vspace{0.5cm}
+
+  \question [1] Comment les frontières de l'Empire sont-elles protégées ?\\
+   \begin{oneparchoices}
+  \choice Par une muraille
+   \choice Par des barbelés
+   %\CorrectChoice Par une muraille
+   \end{oneparchoices}
+   \vspace{0.5cm}
+ 
+  \question[3] Cite les trois objectifs de la romanisation.
+     % \begin{solution}
+     % Solution
+     % \end{solution}
+     \rep{2cm}
+ 
+\end{questions}
+\newpage
+\section{Décris une ville gallo-romaine : Arles }
+ 
+ Compétence à valider : \\
+  \begin{tabular}{|c|c|c|c|}
+  \hline  & Validée & En cours d'acquisition & Non validée \\ 
+  \hline C5 : Je sais tirer des informations de \\ différents documents : carte, \\ plan, photo. &  &  &  \\ 
+  \hline 
+  \end{tabular} \\
+ 
+ 
+ \includegraphics[scale=0.20]{DS1.jpg}
+ \includegraphics[scale=0.20]{DS2.jpg}\\
+ \includegraphics[scale=0.20]{DS3.jpg}
+
+ \begin{questions} 
+ \question[1]  Doc 1. Trouves dans quelle province de la Gaule romaine Arles a-t-elle été fondée.
+ % \begin{solution}
+ % Solution
+ % \end{solution}
+ \rep{2cm}
+ 
+ \question[1] Doc 1. Indique pourquoi Arles est bien située pour faire du commerce.
+    % \begin{solution}
+    % Solution
+    % \end{solution}
+    \rep{2cm}
+   
+ \question[1] Doc 3. Cite les deux grandes voies qui se croisent dans la ville.
+  % \begin{solution}
+  % Solution
+  % \end{solution}
+  \rep{3cm}
+  
+  \question[1] Doc 3. Liste les bâtiments de loisirs que tu voie dans le plan.
+   % \begin{solution}
+   % Solution
+   % \end{solution}
+   \rep{2cm}
+ 
+ 
+ \question[2] Doc 2 et 3. Trouve les deux éléments de la ville antique indiqués sur le plan qui sont visibles sur la photographie. 
+    % \begin{solution}
+    % Solution
+    % \end{solution}
+    \rep{2cm}
+    
+\question[4] Décrit la ville gallo-romaine d'Arles.
+   % \begin{solution}
+   % Solution
+   % \end{solution}
+   \rep{7cm}
+  \end{questions}
+      
+\end{document}
