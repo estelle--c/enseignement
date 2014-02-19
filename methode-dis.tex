@@ -1,0 +1,50 @@
+\documentclass[12pt]{article}
+\usepackage{fontspec}
+\usepackage{xltxtra}
+\setmainfont[Mapping=tex-text]{Century Schoolbook L}
+ \usepackage[francais]{babel}
+ 
+ \usepackage{geometry}
+ \geometry{ hmargin=0.5cm, vmargin=0.5cm } 
+ 
+\usepackage{ifthen}
+
+\makeatletter
+\renewcommand\section{\@startsection
+{section}{1}{0mm}    
+{\baselineskip}
+{0.5\baselineskip}
+{\normalfont\normalsize\textbf}}
+\makeatother
+
+
+\begin{document}
+\begin{large}
+\newboolean{Professeur}
+%\setboolean{Professeur}{true} % « true» (vrai) si le document est le document du professeur (sans trous). « Professeur » a la valeur « false » par défaut. Il faut donc décommenter la ligne pour mettre « Professeur » à « true »
+
+\newcommand{\Trouer}[1]{
+\ifthenelse{\boolean{Professeur}} % si « Professeur » est vrai,
+{\textbf{#1}} %les mots cachés sont en gras
+{\underline{\phantom{#1.5}}} % (else) sinon les mots sont remplacés par une ligne sur laquelle l'élève peut écrire.
+}
+
+La DDHC de 1789, la DUDH de 1948, les différentes conventions internationales ratifiées par la France (dont la convention européenne de sauvegarde des droits de l'Homme et des libertés fondamentales) posent un certain nombres de libertés comme des droits fondamentaux de la personne.
+
+\vspace{1cm}
+Parmi les \Trouer{libertés fondamentales}, celles sur les religions sont les plus discutées. Dans le monde, certains Etats reconnaissent officiellement \Trouer{plusieurs religions}. D'autres, comme la France, affirme le principe de \Trouer{séparation de l'Eglise et de l'Etat} : c'est la solution de la \Trouer{laïcité}.
+
+\vspace{1cm}
+La laïcité n'est pas la \Trouer{négation} du fait religieux. Elle instaure une \Trouer{différence} entre la vie privée (la maison) et la vie publique (l'école). Les différentes lois étudiées (\Trouer{le préambule de la constitution de 1946}, \Trouer{la loi du 15 mars 2004}, et \Trouer{la Convention européenne de sauvegarde des droits de l'Homme et des libertés fondamentales}) restreignent le droit de porter des signes religieux à l'école. La laïcité organise la \Trouer{vie commune} en tenant compte des différentes religions.
+
+\vfill
+La DDHC de 1789, la DUDH de 1948, les différentes conventions internationales ratifiées par la France (dont la convention européenne de sauvegarde des droits de l'Homme et des libertés fondamentales) posent un certain nombres de libertés comme des droits fondamentaux de la personne.
+
+\vspace{1cm}
+Parmi les \Trouer{libertés fondamentales}, celles sur les religions sont les plus discutées. Dans le monde, certains Etats reconnaissent officiellement \Trouer{plusieurs religions}. D'autres, comme la France, affirme le principe de \Trouer{séparation de l'Eglise et de l'Etat} : c'est la solution de la \Trouer{laïcité}.
+
+\vspace{1cm}
+La laïcité n'est pas la \Trouer{négation} du fait religieux. Elle instaure une \Trouer{différence} entre la vie privée (la maison) et la vie publique (l'école). Les différentes lois étudiées (\Trouer{le préambule de la constitution de 1946}, \Trouer{la loi du 15 mars 2004}, et \Trouer{la Convention européenne de sauvegarde des droits de l'Homme et des libertés fondamentales}) restreignent le droit de porter des signes religieux à l'école. La laïcité organise la \Trouer{vie commune} en tenant compte des différentes religions.
+
+\end{large}
+\end{document}
