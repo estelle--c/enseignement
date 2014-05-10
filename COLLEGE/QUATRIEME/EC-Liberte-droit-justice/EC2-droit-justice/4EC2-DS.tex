@@ -1,0 +1,186 @@
+\documentclass[a4paper,12pt]{exam}
+
+%printanswers % Pour ne pas imprimer les réponses (énoncé)
+\addpoints % Pour compter les points
+\pointsinrightmargin % Pour avoir les points dans la marge à droite
+%\bracketedpoints % Pour avoir les points entre crochets
+%\nobracketedpoints % Pour ne pas avoir les points entre crochets
+\pointformat{.../\textbf{\themarginpoints}}
+% \noaddpoints % pour ne pas compter les points
+%\qformat{\textbf{Question\thequestion}\quad(\thepoints)\hfill} % Pour définir le style des questions (facultatif)
+%\qformat{\thequestiontitle \dotfill \thepoints}
+
+
+\usepackage{fontspec}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{wasysym}
+\usepackage{marvosym}
+\usepackage{cwpuzzle}
+  \usepackage{graphicx}
+\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont{Linux Libertine}
+\setmainfont{Century Schoolbook L}
+%\usepackage[margin=1cm]{geometry}
+    \usepackage[francais]{babel}
+    \title{DS - Histoire - L'Orient ancien}
+   
+     
+    % Si on imprime les réponses
+    \ifprintanswers
+    \newcommand{\rep}[1]{}
+    \newcommand{\chariot}{}
+    \else
+    \newcommand{\rep}[1]{\fillwithdottedlines{#1}}
+    \newcommand{\chariot}{\newpage}
+    \fi
+
+
+\makeatletter
+\renewcommand\section{\@startsection
+{section}{1}{0mm}    
+{\baselineskip}
+{0.5\baselineskip}
+{\normalfont\normalsize\textbf}}
+\makeatother
+%\usepackage{titling}
+%\renewcommand{\maketitlehooka}
+
+ 
+\begin{document}
+
+\begin{minipage}{4cm}
+  Nom :
+  
+  Prénom :
+  
+  Classe : 
+  
+  Date : 
+\end{minipage}
+\hfill
+\begin{minipage}{3.5cm}
+
+{\small \begin{questions} \question[1] Orthographe et expression
+\question[1] Présentation \end{questions}
+}
+\end{minipage}
+
+
+\vspace{1cm}
+
+\begin{center}
+
+{\Large DS - Education civique - Droit et justice en France}
+
+\vspace{0.5cm}
+  \end{center}
+Appréciation : \hfill {\large …/\numpoints\ } %\quad\quad …/\textbf{20}
+
+
+
+\section*{Connaissances}
+
+Parmi les affirmations suivantes, lesquelles sont exactes ? \\
+
+
+\begin{questions}
+\question[1] L'égalité.\\
+  \begin{oneparchoices}
+ \choice Devant la justice, les mineurs ont moins de droits que les majeurs.\\
+ \choice Devant la justice, la loi est la même pour tous. \\
+  %\CorrectChoice 70
+  \end{oneparchoices}
+  \vspace{0.5cm}
+\question[1] La présomption d'innocence.\\
+  \begin{oneparchoices}
+ \choice Tant qu'une personne n'a pas été reconnue coupable par le jugement d'un tribunal, elle est présumée innocente. \\
+ \choice Placer une personne en détention, dans l'attente de son procès, signifie qu'elle est reconnue coupable.\\
+  %\CorrectChoice 70
+  \end{oneparchoices}
+  \vspace{0.5cm}
+\question[1] Les voies de recours\\
+  \begin{oneparchoices}
+ \choice Un jugement prononcé par le tribunal correctionnel est toujours définitif.
+ \choice Un justiciable qui n'a pas obtenu satisfaction devant les juridictions nationales peut saisir la Cour européenne des droits de l'homme de Strasbourg. \\
+  %\CorrectChoice 70
+  \end{oneparchoices}
+
+\question[1] Qu'est-ce que le débat contradictoire ?
+ % \begin{solution}
+      % dispersion d'un peuple à travers le monde.
+      % \end{solution}
+      \rep{2cm}
+
+
+\section*{Etude de documents}
+
+\begin{minipage}{8cm}
+\includegraphics[scale=0.20]{ds1.jpg}
+
+\end{minipage}
+\fbox{
+\begin{minipage}{8cm}
+\textbf{doc 2. Protéger et punir} \\
+12 personnes impliquées dans le trafic de faux tableaux étaient poursuivies par le tribunal correctionnel de Créteil pour << imitation de signature en vue de tromper l'acheteur >>, << escroquerie en bande organisée >> et << faux et usage de faux >>. Une vingtaine de victimes s'étaient portée partie civile. Interpellée un an plus tard, un artiste peintre résidant dans le Val-de-Marne aurait reconnu être l'auteur des faux tableaux.\\
+Le tribunal a condamné les douze prévenus : 5 ans de prison dont 30 mois avec sursis pour le galeriste qui dirigeait le trafic; 3 ans de prison dont 2 avec sursis pour le peintre.
+\begin{flushright}
+D'après www.france2.fr, 17 juillet 2010
+\end{flushright}
+\end{minipage}
+}
+
+\textbf{Document 1.} \\
+\question[1] Qui sont les parties en conflit ?
+ % \begin{solution}
+      % dispersion d'un peuple à travers le monde.
+      % \end{solution}
+      \rep{2cm}
+\question[1] Quel tribunal a arbitré ce conflit ? 
+ % \begin{solution}
+      % dispersion d'un peuple à travers le monde.
+      % \end{solution}
+      \rep{1cm}
+\question[2] Explique en quelques lignes le but de ce tribunal.
+ % \begin{solution}
+      % dispersion d'un peuple à travers le monde.
+      % \end{solution}
+      \rep{2cm}
+\question[1] Quel jugement a-t-il prononcé.
+ % \begin{solution}
+      % dispersion d'un peuple à travers le monde.
+      % \end{solution}
+      \rep{1cm}
+
+\textbf{Document 2.}
+\question[1] Qui sont les justiciables opposés dans cette affaire de faux tableaux ?
+ % \begin{solution}
+      % dispersion d'un peuple à travers le monde.
+      % \end{solution}
+      \rep{2cm}
+\question[1] Devant quel tribunal l'affaire est-elle portée ?
+ % \begin{solution}
+      % dispersion d'un peuple à travers le monde.
+      % \end{solution}
+      \rep{1cm}
+\question[2] Explique en quelques lignes le but de ce tribunal.
+ % \begin{solution}
+      % dispersion d'un peuple à travers le monde.
+      % \end{solution}
+      \rep{2cm}
+\question[1] Pourquoi différentes peines sont-elles prononcées ?
+ % \begin{solution}
+      % dispersion d'un peuple à travers le monde.
+      % \end{solution}
+      \rep{2cm}
+
+ \section*{Développement écrit}
+ 
+ \question[5] Explique en quoi le droit permet à la société de fonctionner (utilise des exemples du cours ou de la vie courante, ainsi que la définition du droit)
+% \begin{solution}
+      % dispersion d'un peuple à travers le monde.
+      % \end{solution}
+      \rep{10cm}
+\end{questions}
+
+\end{document}

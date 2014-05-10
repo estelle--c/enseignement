@@ -1,0 +1,174 @@
+\documentclass[a4paper,12pt]{exam}
+
+%printanswers % Pour ne pas imprimer les réponses (énoncé)
+\addpoints % Pour compter les points
+\pointsinrightmargin % Pour avoir les points dans la marge à droite
+%\bracketedpoints % Pour avoir les points entre crochets
+%\nobracketedpoints % Pour ne pas avoir les points entre crochets
+\pointformat{.../\textbf{\themarginpoints}}
+% \noaddpoints % pour ne pas compter les points
+%\qformat{\textbf{Question\thequestion}\quad(\thepoints)\hfill} % Pour définir le style des questions (facultatif)
+%\qformat{\thequestiontitle \dotfill \thepoints}
+
+
+\usepackage{fontspec}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{wasysym}
+\usepackage{marvosym}
+\usepackage{cwpuzzle}
+  \usepackage{graphicx}
+\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont{Linux Libertine}
+\setmainfont{Century Schoolbook L}
+%\usepackage[margin=1cm]{geometry}
+    \usepackage[francais]{babel}
+    \title{DS - Histoire - L'Orient ancien}
+   
+     
+    % Si on imprime les réponses
+    \ifprintanswers
+    \newcommand{\rep}[1]{}
+    \newcommand{\chariot}{}
+    \else
+    \newcommand{\rep}[1]{\fillwithdottedlines{#1}}
+    \newcommand{\chariot}{\newpage}
+    \fi
+
+
+\makeatletter
+\renewcommand\section{\@startsection
+{section}{1}{0mm}    
+{\baselineskip}
+{0.5\baselineskip}
+{\normalfont\normalsize\textbf}}
+\makeatother
+%\usepackage{titling}
+%\renewcommand{\maketitlehooka}
+
+ 
+\begin{document}
+
+\begin{minipage}{4cm}
+  Nom :
+  
+  Prénom :
+  
+  Classe : 
+  
+  Date : 
+\end{minipage}
+\hfill
+\begin{minipage}{3.5cm}
+
+{\small \begin{questions} \question[1] Orthographe et expression
+\question[1] Présentation \end{questions}
+}
+\end{minipage}
+
+
+\vspace{1cm}
+
+\begin{center}
+
+{\Large DS - Histoire - Les débuts du Christianisme}
+
+\vspace{0.5cm}
+  \end{center}
+Appréciation : \hfill {\large …/\numpoints\ } %\quad\quad …/\textbf{20}
+
+ \section*{Connaissances}
+ 
+ \begin{questions} % Début de l'examen. Débute la numérotation des questions
+ 
+ \question[3] Complète la chronologie ci-dessous \\
+ 
+\includegraphics[scale=0.40]{ds1.jpg}
+
+ Explique ce qu'est / qui est:  
+  \question[1] une basilique chrétienne.
+   % \begin{solution}
+     % dispersion d'un peuple à travers le monde.
+     % \end{solution}
+     \rep{2cm}
+       
+    \question[1] Jésus
+     % \begin{solution}
+       % dispersion d'un peuple à travers le monde.
+       % \end{solution}
+       \rep{2cm}
+\end{questions}
+
+\newpage
+
+\section*{Je sais me repérer sur une carte.}
+\begin{questions}
+ \question[2] Sur cette carte du monde romain au IVe siècle, replace la Palestine et Jérusalem.
+\end{questions}
+\includegraphics[scale=0.90]{carte.eps}
+
+\section*{Développement écrit}
+\begin{questions}
+ \question[3] Raconte l'épisode de l'autorisation du christianisme par Constantin.
+
+  % \begin{solution}
+       % dispersion d'un peuple à travers le monde.
+       % \end{solution}
+       \rep{5cm}
+\end{questions}
+
+\newpage
+
+\section*{Etude de document : la persécution des chrétiens accusés de l'incendie de Rome en 64}
+
+\textit{En 64 après Jésus-Christ, un incendie ravage une bonne partie de la ville de Rome. L'empereur Néron accuse les chrétiens d'avoir allumés l'incendie. Il les persécute pour les punir.}
+
+\fbox{
+\begin{minipage}{17cm}
+\textbf{Doc 1. La persécution des chrétiens par Néron }\\
+<< L'empereur Néron infligea des tourments raffinés à ceux que leurs abominations faisaient détester et que la foule appelait chrétiens. \\
+On commença donc par se saisir de ceux qui confessaient leur foi, puis sur leurs révélations, d'une multitude d'autres. On ne se contenta pas de les faire périr : on se fit le jeu de les revêtir de peaux de bêtes pour qu'ils fussent déchirés par les dents des chiens; ou bien ils étaient attachés à des croix, enduits de matières inflammables, et quand le jour avait fuit, ils éclairaient les ténèbres comme des torches. >>
+\begin{flushright}
+Tacite (consul romain), Annales, Livre XV, rédigé vers 117.
+\end{flushright}
+\end{minipage}
+
+
+}
+
+\begin{questions}
+ \question[1] L'auteur de ce texte est-il chrétien ou paien ?
+   % \begin{solution}
+        % dispersion d'un peuple à travers le monde.
+        % \end{solution}
+        \rep{1cm}
+ 
+ \question[1] Qu'est-ce qu'une persécution ?
+   % \begin{solution}
+        % dispersion d'un peuple à travers le monde.
+        % \end{solution}
+        \rep{2cm}
+  \question[2] Raconte cette persécution.
+    % \begin{solution}
+         % dispersion d'un peuple à travers le monde.
+         % \end{solution}
+         \rep{2cm}
+   \question[2] En quelle année a-t-elle eu lieu ? Replace cette persécution sur la chronologie ci-dessus.
+     % \begin{solution}
+          % dispersion d'un peuple à travers le monde.
+          % \end{solution}
+          \rep{1cm}
+    \question[1] Replace Rome sur la carte donnée.
+    \question[1] Raconte l'évènement déclencheur de cette persécution.
+      % \begin{solution}
+           % dispersion d'un peuple à travers le monde.
+           % \end{solution}
+           \rep{2cm}
+     
+     
+     
+
+
+ \end{questions}
+
+\end{document}
