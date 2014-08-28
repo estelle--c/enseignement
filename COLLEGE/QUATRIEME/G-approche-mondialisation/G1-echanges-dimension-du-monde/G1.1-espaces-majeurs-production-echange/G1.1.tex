@@ -1,0 +1,86 @@
+ \documentclass{beamer}
+  %\usepackage[utf8]{inputenc}
+  \usepackage{fontspec}  %pour xelatex
+ \usepackage{xunicode}  %pour xelatex
+  \usetheme{Montpellier}
+   \usepackage{color}
+   \usepackage{xcolor}
+   \usepackage{graphicx}
+   \usepackage{ulem}
+%   \usepackage{xkeyval}
+   \usepackage{pst-tree}
+   \usepackage{tabularx}
+   \usepackage[french]{babel}
+ %  \usepackage{pstcol,pst-fill,pst-grad}
+  \setbeamercolor{normal text}{fg=black}
+ \setbeamercolor{section in head/foot}{fg=black}
+  \setbeamercolor{subsection in head/foot}{fg=blue}
+\beamerboxesdeclarecolorscheme{blocbleu}{black!60!white}{black!20!white}
+\beamerboxesdeclarecolorscheme{blocimage}{black!60!white}{black!10!white}
+\setbeamercolor{section in toc}{fg=black}
+\setbeamercolor{subsection in toc}{fg=blue}
+
+
+
+\AtBeginSection[]
+{
+ \begin{frame}
+  \tableofcontents[currentsection,hideallsubsections]
+ \end{frame}
+}
+
+\AtBeginSubsection[]
+{
+  \begin{frame}
+  \tableofcontents[currentsection,currentsubsection]
+  \end{frame}
+}
+  \title{{\textcolor{red}{TITRE}}}
+
+
+
+
+\begin{document}
+
+\newcommand{\df}[2]{\textcolor{red}{\underline{#1}: #2}}
+
+\newcommand{\doc}[1]{
+\begin{flushright}
+\fbox{Documents : #1}
+\end{flushright}
+}
+
+\newcommand{\con}[1]{\textcolor{blue}{\underline{Consigne}: #1}}
+
+\begin{frame}
+ \titlepage %{CHAPITRE 2 - LES IDENTIT�S MULTIPLES DE LA PERSONNE}
+ \end{frame}
+
+
+
+\section{I/ }
+
+
+\begin{frame}{Exercice}{Je sais me repérer sur une frise chronologique}
+
+%\df{Ici}{ici}
+
+\doc{1p.20}
+
+\con{En quelle date se sont passés les évènements suivants ?}
+
+\end{frame}
+
+\begin{frame}{Définitions}
+\df{Sumer}{ville de Mésopotamie} 
+
+\df{Egypte}{pays d'Afrique}
+
+\end{frame}
+
+
+
+%\section{II/ }
+%\section{III/ }
+
+  \end{document}
