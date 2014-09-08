@@ -1,0 +1,84 @@
+ \documentclass{beamer}
+  %\usepackage[utf8]{inputenc}
+  \usepackage{fontspec}  %pour xelatex
+ \usepackage{xunicode}  %pour xelatex
+  \usetheme{Montpellier}
+   \usepackage{color}
+   \usepackage{xcolor}
+   \usepackage{graphicx}
+   \usepackage{ulem}
+%   \usepackage{xkeyval}
+   \usepackage{pst-tree}
+   \usepackage{tabularx}
+   \usepackage[french]{babel}
+ %  \usepackage{pstcol,pst-fill,pst-grad}
+  \setbeamercolor{normal text}{fg=black}
+ \setbeamercolor{section in head/foot}{fg=black}
+  \setbeamercolor{subsection in head/foot}{fg=blue}
+\beamerboxesdeclarecolorscheme{blocbleu}{black!60!white}{black!20!white}
+\beamerboxesdeclarecolorscheme{blocimage}{black!60!white}{black!10!white}
+\setbeamercolor{section in toc}{fg=black}
+\setbeamercolor{subsection in toc}{fg=blue}
+\date{}
+
+
+
+\AtBeginSection[]
+{
+ \begin{frame}
+  \tableofcontents[currentsection,hideallsubsections]
+ \end{frame}
+}
+
+\AtBeginSubsection[]
+{
+  \begin{frame}
+  \tableofcontents[currentsection,currentsubsection]
+  \end{frame}
+}
+  \title{{\textcolor{red}{Thème introductif - Les enjeux du développement. \\ Du développement au développement durable.}}}
+
+
+
+
+\begin{document}
+
+\newcommand{\df}[2]{\textcolor{red}{\underline{#1}: #2}}
+
+\newcommand{\doc}[1]{
+\begin{flushright}
+\fbox{Documents : #1}
+\end{flushright}
+}
+
+\newcommand{\con}[1]{\textcolor{blue}{\underline{Consigne}: #1}}
+
+\newcommand{\rep}[1]{\textcolor{green}{\underline{Réponse}: #1}}
+
+\begin{frame}{Thème général de l'année}
+\begin{center}
+{\Huge \textcolor{red}{Société et développement durable}}
+\end{center}
+\end{frame}
+
+
+
+
+\begin{frame}
+ \titlepage %{CHAPITRE 2 - LES IDENTIT�S MULTIPLES DE LA PERSONNE}
+ \end{frame}
+
+% Ce chapitre va répondre aux questions majeurs qui se posent à humanité
+
+
+
+\begin{frame}{Fils directeurs: }
+\begin{itemize}
+\item Comment réduire les inégalités entre les populations ?
+\item Comment faire face aux besoins croissants d'une humanité toujours plus nombreuse ?
+\item Comment mettre en oeuvre des modes durables de développement ?
+\end{itemize}
+\end{frame}
+
+
+  \end{document}
