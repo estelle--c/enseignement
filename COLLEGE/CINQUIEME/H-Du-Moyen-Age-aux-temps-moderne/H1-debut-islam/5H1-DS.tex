@@ -1,0 +1,146 @@
+\documentclass[a4paper,12pt]{exam}
+
+%printanswers % Pour ne pas imprimer les réponses (énoncé)
+\addpoints % Pour compter les points
+\pointsinrightmargin % Pour avoir les points dans la marge à droite
+%\bracketedpoints % Pour avoir les points entre crochets
+%\nobracketedpoints % Pour ne pas avoir les points entre crochets
+\pointformat{.../\textbf{\themarginpoints}}
+% \noaddpoints % pour ne pas compter les points
+%\qformat{\textbf{Question\thequestion}\quad(\thepoints)\hfill} % Pour définir le style des questions (facultatif)
+%\qformat{\thequestiontitle \dotfill \thepoints}
+
+
+\usepackage{fontspec}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{wasysym}
+\usepackage{marvosym}
+\usepackage{cwpuzzle}
+  \usepackage{graphicx}
+\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont{Linux Libertine}
+\setmainfont{Century Schoolbook L}
+%\usepackage[margin=1cm]{geometry}
+    \usepackage[francais]{babel}
+    \title{DS - Histoire - Les débuts de l'Islam}
+   \usepackage[left=0.5cm,right=2cm,top=0.5cm,bottom=0.5cm]{geometry}
+     
+    % Si on imprime les réponses
+    \ifprintanswers
+    \newcommand{\rep}[1]{}
+    \newcommand{\chariot}{}
+    \else
+    \newcommand{\rep}[1]{\fillwithdottedlines{#1}}
+    \newcommand{\chariot}{\newpage}
+    \fi
+
+
+\makeatletter
+\renewcommand\section{\@startsection
+{section}{1}{0mm}    
+{\baselineskip}
+{0.5\baselineskip}
+{\normalfont\normalsize\textbf}}
+\makeatother
+%\usepackage{titling}
+%\renewcommand{\maketitlehooka}
+
+ 
+\begin{document}
+
+\begin{minipage}{4cm}
+  Nom :
+  
+  Prénom :
+  
+  Classe : 
+  
+  Date : 
+\end{minipage}
+\hfill
+\begin{minipage}{3.5cm}
+
+{\small \begin{questions} \question[1] Orthographe et expression
+\question[1] Présentation \end{questions}
+}
+\end{minipage}
+
+
+\vspace{1cm}
+
+\begin{center}
+
+{\Large DS - Histoire - Les débuts de l'Islam}
+
+\vspace{0.5cm}
+  \end{center}
+
+ \hfill {\large …/\numpoints\ } %\quad\quad …/\textbf{20}
+
+Attention, tu dois rédiger des phrases pour répondre aux questions. Tu n'auras pas les points si ce n'est pas le cas.
+
+
+
+\section*{Connaissances}
+
+ \begin{questions} % Début de l'examen. Débute la numérotation des questions
+\question[2] Donne la date de l'Hégire et sa signification
+% \begin{solution}
+% Solution
+% \end{solution}
+%\rep{1cm}
+
+\question[2] Explique qui est Mahomet et son rôle dans l'Islam
+% \begin{solution}
+% Solution
+% \end{solution}
+%\rep{2cm}
+
+\question[2] Explique la différence entre un musulman et un Arabe. 
+% \begin{solution}
+% Solution
+% \end{solution}
+%\rep{2cm}
+
+%\end{questions}
+
+\section*{Exercice : Je sais repérer des lieux sur une carte de situation.}
+
+\begin{minipage}{8cm}
+\includegraphics[width=7cm]{empire-musulman.eps}
+\end{minipage}
+\begin{minipage}{8cm}
+%\begin{questions}
+Note sur la carte : 
+\question[1] l'Arabie
+\question[1] La Mecque
+\question[1] Jérusalem
+\end{minipage}
+
+
+
+%\end{questions}
+
+\section*{Je sais situer une ville}
+ 
+ %\begin{questions}
+ \question[3] Cites trois différents monuments que l'on peut trouver dans une ville musulmane et leurs fonctions
+ %\end{questions}
+ 
+ \section*{Exercice : Etudier un document et écrire un texte bref (compétence C1 et 5)}
+ 
+ \fbox{
+ \begin{minipage}{17cm}
+ doc. La conquête d’Alexandrie (642).\\
+  
+  « Amr ibn al-Âs se dirigea vers l’Égypte, en traversant la province de Palestine. [Le calife] ‘Umar lui envoya de Médine des renforts. Le premier endroit que ‘Amr rencontra sur le territoire d’Alexandrie fut Bilbays. Il saccagea la ville, y tua beaucoup de monde et fit des prisonniers; puis il continua sa route. Le prince d’Alexandrie se renferma dans la ville et ‘Amr vint l’assiéger. Il resta sous les murs de la ville pendant cinq mois, jusqu’à ce que le prince d’Alexandrie demandât à capituler. ‘Amr exigea que les assiégés embrassassent l’islam ou qu’ils payassent tribut. Le prince répondit: «J’ai souvent payé tribut, soit aux Perses, soit aux Romains [byzantins]; je ne me refuserai donc pas à payer tribut également aux musulmans, à condition cependant que vous rendiez tous ceux des gens d’Alexandrie qui ont été faits prisonniers. » ‘Amr lui fit dire que, en ce qui concernait les prisonniers, il demanderait l’avis du prince des croyants, le calife‘Umar.
+  ‘Umar lui répondit: «ceux des prisonniers qui ont été amenés à Médine, qui ont été remis en partage aux musulmans, qui ont été vendus et achetés, et qui ont été transportés partie à La Mekke, partie en Irak, ne peuvent pas être rendus. [...] Quant aux prisonniers qui sont entre vos mains, il ne faut pas rendre ceux qui choisissent l’islam; mais tu peux rendre ceux qui choisissent le christianisme. »
+ \end{minipage}
+ }
+ 
+ %\begin{questions}
+ \question[6] Raconte la conquête d'Alexandrie en Egypte par les Arabes.
+ \end{questions}
+ 
+\end{document}
