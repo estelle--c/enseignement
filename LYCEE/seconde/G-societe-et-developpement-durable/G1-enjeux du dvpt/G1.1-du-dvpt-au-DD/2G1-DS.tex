@@ -1,0 +1,115 @@
+% !TeX encoding = UTF-8
+\documentclass[a4paper,12pt]{exam}
+
+%printanswers % Pour ne pas imprimer les réponses (énoncé)
+\addpoints % Pour compter les points
+\pointsinrightmargin % Pour avoir les points dans la marge à droite
+%\bracketedpoints % Pour avoir les points entre crochets
+%\nobracketedpoints % Pour ne pas avoir les points entre crochets
+\pointformat{.../\textbf{\themarginpoints}}
+% \noaddpoints % pour ne pas compter les points
+%\qformat{\textbf{Question\thequestion}\quad(\thepoints)\hfill} % Pour définir le style des questions (facultatif)
+%\qformat{\thequestiontitle \dotfill \thepoints}
+
+
+\usepackage{fontspec}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{wasysym}
+\usepackage{marvosym}
+\usepackage{cwpuzzle}
+  \usepackage{graphicx}
+\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont{Linux Libertine}
+\setmainfont{Century Schoolbook L}
+%\usepackage[margin=1cm]{geometry}
+    \usepackage[francais]{babel}
+    \title{DS - Histoire - Les débuts de l'Islam}
+   \usepackage[left=0.5cm,right=2cm,top=0.5cm,bottom=0.5cm]{geometry}
+     
+    % Si on imprime les réponses
+    \ifprintanswers
+    \newcommand{\rep}[1]{}
+    \newcommand{\chariot}{}
+    \else
+    \newcommand{\rep}[1]{\fillwithdottedlines{#1}}
+    \newcommand{\chariot}{\newpage}
+    \fi
+
+
+\makeatletter
+\renewcommand\section{\@startsection
+{section}{1}{0mm}    
+{\baselineskip}
+{0.5\baselineskip}
+{\normalfont\normalsize\textbf}}
+\makeatother
+%\usepackage{titling}
+%\renewcommand{\maketitlehooka}
+
+ 
+\begin{document}
+
+\begin{minipage}{4cm}
+  Nom :
+  
+  Prénom :
+  
+  Classe : 
+  
+  Date : 
+\end{minipage}
+\hfill
+\begin{minipage}{3.5cm}
+
+{\small \begin{questions} \question[1] Orthographe et expression
+\question[1] Présentation \end{questions}
+}
+\end{minipage}
+
+
+\vspace{1cm}
+
+\begin{center}
+
+{\Large DS - Géographie - Les enjeux du développement durable}
+
+\vspace{0.5cm}
+  \end{center}
+
+ Appréciation \hfill {\large …/\numpoints\ } %\quad\quad …/\textbf{20}
+
+%Attention, tu dois rédiger des phrases pour répondre aux questions. Tu n'auras pas les points si ce n'est pas le cas.
+
+
+\section*{Etude de carte}
+
+
+
+\includegraphics[width=10cm]{DS1.jpg}
+
+\begin{questions}
+\question[1] Quel indicateur est représenté sur cette carte ?
+\question[1] Pourquoi est-ce un indicateur utile dans la définition de la notion de développement.
+\question[6] Etudie cette carte (utilise le vocabulaire approprié). N'oublie pas de toujours justifié tes idées par des chiffres de la carte.
+
+
+
+
+ \section*{Rédiger un texte construit et argumenté en utilisant le vocabulaire géographique spécifique.}
+ 
+ \question[10] Explique, avec des arguments et des exemples, la relation complexe entre l'augmentation de la population et les modes durables de développement. Plan détaillé
+ 
+ % I/ Pop augmente
+ % A/ constat : chiffre aujourd'hui, dans 50 ans / où augmente : ds les pays pauvres (moins dvpt)
+ % B/ Causes : transitions démog pas finis dans certains pays -> niveau de dvpt pas atteint (niveau culture, enseignement). Pas de pol de natalité qui fonctionne.
+ % C/ les csq : idée de surpopulation ? de ressource plus disponible après.
+ 
+ % II/ Du dvpt durable aux modes durables de dvpt
+ %A/ une naissance dans les pays du nord après leur transition démog
+ % B/ le dvpt remis en cause dans les pays pauvre.
+  % C/ faut penser local : ne fait pas la même politique dans un pays où pop augmente énormément et dans un autre où augmente pas du tout.
+ 
+ \end{questions}
+ 
+\end{document}

@@ -1,0 +1,128 @@
+\documentclass[a4paper,12pt]{exam}
+
+%printanswers % Pour ne pas imprimer les réponses (énoncé)
+\addpoints % Pour compter les points
+\pointsinrightmargin % Pour avoir les points dans la marge à droite
+%\bracketedpoints % Pour avoir les points entre crochets
+%\nobracketedpoints % Pour ne pas avoir les points entre crochets
+\pointformat{.../\textbf{\themarginpoints}}
+% \noaddpoints % pour ne pas compter les points
+%\qformat{\textbf{Question\thequestion}\quad(\thepoints)\hfill} % Pour définir le style des questions (facultatif)
+%\qformat{\thequestiontitle \dotfill \thepoints}
+
+
+\usepackage{fontspec}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{wasysym}
+\usepackage{marvosym}
+\usepackage{cwpuzzle}
+  \usepackage{graphicx}
+\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont{Linux Libertine}
+\setmainfont{Century Schoolbook L}
+%\usepackage[margin=1cm]{geometry}
+    \usepackage[francais]{babel}
+    \title{DS - Géographie - Les enjeux du développement durable}
+   
+     
+    % Si on imprime les réponses
+    \ifprintanswers
+    \newcommand{\rep}[1]{}
+    \newcommand{\chariot}{}
+    \else
+    \newcommand{\rep}[1]{\fillwithdottedlines{#1}}
+    \newcommand{\chariot}{\newpage}
+    \fi
+
+
+\makeatletter
+\renewcommand\section{\@startsection
+{section}{1}{0mm}    
+{\baselineskip}
+{0.5\baselineskip}
+{\normalfont\normalsize\textbf}}
+\makeatother
+%\usepackage{titling}
+%\renewcommand{\maketitlehooka}
+
+ 
+\begin{document}
+
+\begin{minipage}{4cm}
+  Nom :
+  
+  Prénom :
+  
+  Classe : 
+  
+  Date : 
+\end{minipage}
+\hfill
+\begin{minipage}{3.5cm}
+
+{\small \begin{questions} \question[1] Orthographe et expression
+\question[1] Présentation \end{questions}
+}
+\end{minipage}
+
+
+\vspace{1cm}
+
+\begin{center}
+
+{\Large DS - Géographie - Les enjeux du développement durable}
+
+\vspace{0.5cm}
+  \end{center}
+Appréciation : \hfill {\large …/\numpoints\ } %\quad\quad …/\textbf{20}
+
+
+
+\section*{Etude de cartes}
+ 
+ \begin{questions} % Début de l'examen. Débute la numérotation des questions
+
+\question[2] Explique qui est Luther et l'importance qu'il a eu au XVIe siècle.
+% \begin{solution}
+% Solution
+% \end{solution}
+\rep{2cm}
+
+
+\question[2] Comment se nomme la théorie développée par N. Copernic ? Que dit-elle ?
+% \begin{solution}
+% Solution
+% \end{solution}
+\rep{2cm}
+
+
+\question[1] Dans quel pays démarre la Renaissance ? Cite une ville de ce pays, connue pour son influence artistique à cette époque.
+% \begin{solution}
+% Solution
+% \end{solution}
+\rep{2cm}
+
+
+\section*{Développement écrit}
+\question[6] Grâce à tes connaissance, raconte le voyage de Magellan (3 paragraphes : causes, déroulement, conséquences) 
+% \begin{solution}
+% Solution
+% \end{solution}
+\rep{6cm}
+
+\newpage
+
+\rep{4cm}
+
+\section*{Etude de peinture}
+
+\question[6] Entoure et cite le nom des trois nouveauté artistiques de la Renaissance. 
+
+%\includegraphics[scale=0.50]{p1.jpg}
+
+
+
+ \end{questions}
+
+\end{document}
