@@ -1,0 +1,169 @@
+ \documentclass{beamer}
+  %\usepackage[utf8]{inputenc}
+  \usepackage{fontspec}  %pour xelatex
+ \usepackage{xunicode}  %pour xelatex
+  %\usetheme{Montpellier}
+   \usepackage{color}
+   \usepackage{xcolor}
+   \usepackage{graphicx}
+   \usepackage{ulem}
+%   \usepackage{xkeyval}
+   \usepackage{pst-tree}
+   \usepackage{tabularx}
+   \usepackage[french]{babel}
+ %  \usepackage{pstcol,pst-fill,pst-grad}
+  \setbeamercolor{normal text}{fg=black}
+ \setbeamercolor{section in head/foot}{fg=black}
+  \setbeamercolor{subsection in head/foot}{fg=blue}
+\beamerboxesdeclarecolorscheme{blocbleu}{black!60!white}{black!20!white}
+\beamerboxesdeclarecolorscheme{blocimage}{black!60!white}{black!10!white}
+\setbeamercolor{section in toc}{fg=black}
+\setbeamercolor{subsection in toc}{fg=blue}
+\date{}
+%\usepackage{titlesec}
+\usepackage{soul}
+
+
+\AtBeginSection[]
+{
+ \begin{frame}
+  \tableofcontents[currentsection,hideallsubsections]
+ \end{frame}
+}
+
+\AtBeginSubsection[]
+{
+  \begin{frame}
+  \tableofcontents[currentsection,currentsubsection]
+  \end{frame}
+}
+  %\title{{\textcolor{red}{Partie 1 - L'Europe et le monde au XVIIIe siècle \\ Chapitre 1 - L'Europe DANS le monde au XVIIIe siècle}}}
+
+
+
+\begin{document}
+
+\newcommand{\df}[2]{\textcolor{red}{\underline{#1}: #2}}
+
+\newcommand{\doc}[1]{
+\begin{flushright}
+\fbox{Documents : #1}
+\end{flushright}
+}
+
+\newcommand{\con}[1]{\textcolor{blue}{\underline{Consigne}: #1}}
+
+\newcommand{\rep}[1]{\textcolor{green}{\underline{Réponse}: #1}}
+
+\newcommand{\ntn}[1]{\textcolor{black}{\underline{Notion}: #1}}
+
+
+
+
+
+
+\begin{frame}
+\begin{figure}
+%\center 
+\caption{Puissances et colonies}  
+\includegraphics[width=12cm]{doc1.jpg}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\begin{figure}
+%\center 
+\caption{Louis XIV, roi de France jusqu'en 1715}  
+\includegraphics[scale=0.9]{Louis_14.jpg}
+
+\end{figure}
+\end{frame}
+
+
+
+\begin{frame}
+\begin{figure}
+%\center 
+\caption{Les puissances politiques au XVIIIe siècle}  
+\includegraphics[width=12cm]{doc2.jpg}
+
+\end{figure}
+\end{frame}
+
+
+
+\begin{frame}
+\begin{figure}
+%\center 
+\caption{Pierre le Grand, tsar de Russie}  
+\includegraphics[scale=0.9]{pierre-le-grand.jpg}
+
+\end{figure}
+\end{frame}
+
+
+
+
+\begin{frame}
+\begin{figure}
+%\center 
+\caption{Les grandes routes commerciales au début du XVIIIe siècle}  
+\includegraphics[width=10cm]{doc1.jpg}
+\end{figure}
+\end{frame}
+
+
+\begin{frame}
+
+\begin{figure}
+%\center 
+\caption{Vue des magasins de la Compagnie des Indes à Pondichéry, avant la destruction de la ville par les Anglais en 1761. (XVIIIe siècle, Lorient, musée de la Compagnie des Indes).}  
+\includegraphics[width=11cm]{Magasins_de_la_Compagnie_des_Indes_à_Pondichéry.jpg}
+
+\end{figure}
+
+\end{frame}
+
+\begin{frame}
+\begin{figure}
+%\center 
+\caption{Localisation de Pondichéry}  
+\includegraphics[width=12cm]{doc1.jpg}
+\end{figure}
+\end{frame}
+
+
+
+
+\begin{frame}
+
+\begin{figure}
+%\center 
+\caption{Joseph Vernet, \textit{Vue du port de La Rochelle}, 1762}  
+\includegraphics[width=11cm]{port-la-rochelle.eps}
+
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\begin{figure}
+%\center 
+\caption{Joseph Vernet}  
+\includegraphics[width=6cm]{vernet.jpg}
+
+\end{figure}
+\end{frame}
+
+
+\begin{frame}
+\begin{figure}
+%\center 
+\caption{Les principaux produits arrivant des colonies}  
+\includegraphics[width=8cm]{doc3.jpg}
+
+\end{figure}
+\end{frame}
+
+
+
+  \end{document}
