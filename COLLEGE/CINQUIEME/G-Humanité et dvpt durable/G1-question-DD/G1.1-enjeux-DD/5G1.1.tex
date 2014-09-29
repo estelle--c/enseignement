@@ -1,0 +1,150 @@
+ \documentclass{beamer}
+  %\usepackage[utf8]{inputenc}
+  \usepackage{fontspec}  %pour xelatex
+ \usepackage{xunicode}  %pour xelatex
+  \usetheme{Montpellier}
+   \usepackage{color}
+   \usepackage{xcolor}
+   \usepackage{graphicx}
+   \usepackage{ulem}
+%   \usepackage{xkeyval}
+   \usepackage{pst-tree}
+   \usepackage{tabularx}
+   \usepackage[french]{babel}
+ %  \usepackage{pstcol,pst-fill,pst-grad}
+  \setbeamercolor{normal text}{fg=black}
+ \setbeamercolor{section in head/foot}{fg=black}
+  \setbeamercolor{subsection in head/foot}{fg=blue}
+\beamerboxesdeclarecolorscheme{blocbleu}{black!60!white}{black!20!white}
+\beamerboxesdeclarecolorscheme{blocimage}{black!60!white}{black!10!white}
+\setbeamercolor{section in toc}{fg=black}
+\setbeamercolor{subsection in toc}{fg=blue}
+\date{}
+%\usepackage{titlesec}
+\usepackage{soul}
+
+
+\AtBeginSection[]
+{
+ \begin{frame}
+  \tableofcontents[currentsection,hideallsubsections]
+ \end{frame}
+}
+
+\AtBeginSubsection[]
+{
+  \begin{frame}
+  \tableofcontents[currentsection,currentsubsection]
+  \end{frame}
+}
+  \title{{\textcolor{red}{Partie 1 - La question du développement durable \\ Chapitre 1 - Les enjeux du développement durable}}}
+
+\usepackage{ifthen}
+\makeatletter
+\renewcommand\section{\@startsection
+{section}{1}{0mm}
+{\baselineskip}
+{0.5\baselineskip}
+{\normalfont\normalsize\textbf}}
+\makeatother
+
+
+\begin{document}
+
+\newboolean{Professeur}
+\setboolean{Professeur}{true} % « true» (vrai) si le document est le document du professeur (sans trous). « Professeur » a la valeur « false » par défaut. Il faut donc décommenter la ligne pour mettre « Professeur » à « true »
+\newcommand{\Trouer}[1]{
+\ifthenelse{\boolean{Professeur}} % si « Professeur » est vrai,
+{\textbf{#1}} %les mots cachés sont en gras
+{\underline{\phantom{#1.5}}} % (else) sinon les mots sont remplacés par une ligne sur laquelle l'élève peut écrire.
+}
+
+\newcommand{\df}[2]{\textcolor{red}{\underline{#1}: #2}}
+
+\newcommand{\doc}[1]{
+\begin{flushright}
+\fbox{Documents : #1}
+\end{flushright}
+}
+
+\newcommand{\con}[1]{\textcolor{blue}{\underline{Consigne}: #1}}
+
+\newcommand{\rep}[1]{\textcolor{green}{\underline{Réponse}: #1}}
+
+\begin{frame}{Thème général de l'année}
+\begin{center}
+{\Huge \textcolor{red}{Humanité et développement durable}}
+\end{center}
+\end{frame}
+
+\begin{frame}
+\df{Développement}{Arriver, grâce à un enrichissement général de l'humanité, à améliorer le bien-être des individus (à satisfaire ses besoins). Tous les pays du monde ne sont pas encore arrivé à un niveau correct de dvpt}
+
+\vfill
+
+\df{Développement durable}{Mode de développement qui répond aux besoins du présent, sans compromettre la capacité des générations futures de répondre aux leurs. Rapport Brundtland, 1987}
+\end{frame}
+
+\begin{frame}
+ \titlepage %{CHAPITRE 2 - LES IDENTIT�S MULTIPLES DE LA PERSONNE}
+ \end{frame}
+
+\section{I/ Etude de cas : Se déplacer à Bordeaux}
+
+\begin{frame}{Les transports : un besoin pour une population en mouvement}
+
+\con{Enumères les différents moyens de se déplacer. Explique en les causes. Dit s'il faut être riche ou non pour l'utiliser -> fait trois case : causes, constat, csq.} \\
+\con{Pourquoi dvpt des transports en ville ?}
+
+\end{frame}
+
+\begin{frame}{Se déplacer à Bordeaux}
+
+{\small -> comprendre l'intérêt de la voiture dans les villes françaises : gain de temps, gain d'argent... \\
+-> comprendre ces nouveaux modes de déplacements qui apparaissent dans les villes. \\
+-> voir la méthode de la carte : Je lit le titre, je lit la légende, je fait figurer la légende avec la carte. Ensuite seulement, je répond aux questions. \\
+-> pas faire la 5e. Mais à la place : explique pourquoi ces nouveaux modes de transports permettront aux générations futurs à Bordeaux de continuer à se déplacer. \\
+ 
+OU
+Deux exercices : 
+\begin{itemize}
+\item Tu es un enfant de la fin du XXIe siècle, décris ta vision du transport à Bordeaux, après un siècle de transports plus doux pour l'environnement.\\
+\item Tu es un enfant de la fin du XXIe siècle, décris ta vision du transport à Bordeaux, alors que la ville n'a pas acceptée les transports plus doux et est resté aux transports polluants.
+\end{itemize}}
+\end{frame}
+
+\section{II/ Quelles sont les idées du développement durable aujourd'hui ?}
+
+\begin{frame}{Les 3 piliers du DD}
+
+1 p. 180
+
+Remplir les trois piliers
+
+
+\end{frame}
+
+\begin{frame}{Le leitmotiv du DD : penser global, agir local}
+
+Tous les \Trouer{dix ans}, les dirigeants \Trouer{mondiaux} se réunissent lors de sommets de la Terre. Ils essaient de stimuler les politiques de mise en place du développement durable grâce à des \Trouer{agenda 21}. L'exemple de Bordeaux nous a montré que même si on réfléchi aux politiques au niveau mondial, les actions, elles, se passent au niveau \Trouer{local} (ville, département, région, pays).
+
+\vfill
+
+\df{Agenda 21}{plan d'action pour mettre en place un mode de vie basé sur le développement durable.}
+
+\end{frame}
+
+\begin{frame}{Les problèmes du DD}
+
+\doc{6 p. 183}
+
+\con{Explique pourquoi, pour l'auteur, le DD est un retour en arrière par rapport au dvpt de la France (utilise des exemples tirés du texte).}
+
+\rep{But du dvpt : d'arriver à libérer l'Homme des contraintes matérielles (passer du temps à faire la vaisselle, laver le linge...). Si on revient à un mode plus durables, peur de revenir aussi sur ses nouveautés.}
+\end{frame}
+
+\begin{frame}
+Le mode de développement durable pose certains \Trouer{problèmes}. Le développement a permis, en France, de \Trouer{mieux vivre} grâce à des innovations, pour la plupart \Trouer{polluantes} (industries, mode de consommation : on jette un produit quand il est cassé au lieu de le réparer...). Les \Trouer{pays pauvres}, eux, ont besoins de ces innovations pour se développer. Ils s’intéressent peu au côté environnemental du développement durable.
+\end{frame}
+
+  \end{document}

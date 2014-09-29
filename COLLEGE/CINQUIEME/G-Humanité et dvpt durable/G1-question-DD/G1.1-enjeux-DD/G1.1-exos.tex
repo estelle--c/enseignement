@@ -1,0 +1,45 @@
+\documentclass[12pt,a4paper]{article}
+%\usepackage[utf8]{inputenc}
+\usepackage[francais]{babel}
+%\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage[left=0.5cm,right=0.5cm,top=0.5cm,bottom=0.5cm]{geometry}
+ \usepackage{fontspec}  %pour xelatex
+ \usepackage{xunicode}  %pour xelatex
+ \usepackage{xltxtra}
+  \setmainfont[Mapping=tex-text]{Century Schoolbook L}
+
+\usepackage{ifthen}
+\makeatletter
+\renewcommand\section{\@startsection
+{section}{1}{0mm}
+{\baselineskip}
+{0.5\baselineskip}
+{\normalfont\normalsize\textbf}}
+\makeatother
+
+
+\begin{document}
+
+
+\includegraphics[width=16cm]{piliers-DD.eps}
+
+\begin{large}
+\newboolean{Professeur}
+%\setboolean{Professeur}{true} % « true» (vrai) si le document est le document du professeur (sans trous). « Professeur » a la valeur « false » par défaut. Il faut donc décommenter la ligne pour mettre « Professeur » à « true »
+\newcommand{\Trouer}[1]{
+\ifthenelse{\boolean{Professeur}} % si « Professeur » est vrai,
+{\textbf{#1}} %les mots cachés sont en gras
+{\underline{\phantom{#1.5}}} % (else) sinon les mots sont remplacés par une ligne sur laquelle l'élève peut écrire.
+}
+
+\vfill
+
+Tous les \Trouer{dix ans}, les dirigeants \Trouer{mondiaux} se réunissent lors de sommets de la Terre. Ils essaient de stimuler les politiques de mise en place du développement durable grâce à des \Trouer{agenda 21}. L'exemple de Bordeaux nous a montré que même si on réfléchi aux politiques au niveau mondial, les actions, elles, se passent au niveau \Trouer{local} (ville, département, région, pays).
+
+\vfill
+
+Le mode de développement durable pose certains \Trouer{problèmes}. Le développement a permis, en France, de \Trouer{mieux vivre} grâce à des innovations, pour la plupart \\ \Trouer{polluantes} (industries, mode de consommation : on jette un produit quand il est cassé au lieu de le réparer...). Les \Trouer{pays pauvres}, eux, ont besoins de ces innovations pour se développer. Ils s’intéressent peu au côté environnemental du développement durable.
+\end{large}
+
+\end{document}
