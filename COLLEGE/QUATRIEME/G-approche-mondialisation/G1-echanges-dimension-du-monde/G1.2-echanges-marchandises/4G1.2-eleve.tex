@@ -1,0 +1,140 @@
+ \documentclass{beamer}
+  %\usepackage[utf8]{inputenc}
+  \usepackage{fontspec}  %pour xelatex
+ \usepackage{xunicode}  %pour xelatex
+  \usetheme{Montpellier}
+   \usepackage{color}
+   \usepackage{xcolor}
+   \usepackage{graphicx}
+   \usepackage{ulem}
+%   \usepackage{xkeyval}
+   \usepackage{pst-tree}
+   \usepackage{tabularx}
+   \usepackage[french]{babel}
+ %  \usepackage{pstcol,pst-fill,pst-grad}
+  \setbeamercolor{normal text}{fg=black}
+ \setbeamercolor{section in head/foot}{fg=black}
+  \setbeamercolor{subsection in head/foot}{fg=blue}
+\beamerboxesdeclarecolorscheme{blocbleu}{black!60!white}{black!20!white}
+\beamerboxesdeclarecolorscheme{blocimage}{black!60!white}{black!10!white}
+\setbeamercolor{section in toc}{fg=black}
+\setbeamercolor{subsection in toc}{fg=blue}
+\date{}
+%\usepackage{titlesec}
+\usepackage{soul}
+
+
+\AtBeginSection[]
+{
+ \begin{frame}
+  \tableofcontents[currentsection,hideallsubsections]
+ \end{frame}
+}
+
+\AtBeginSubsection[]
+{
+  \begin{frame}
+  \tableofcontents[currentsection,currentsubsection]
+  \end{frame}
+}
+  \title{{\textcolor{red}{Chapitre 2 - L'Europe des Lumières}}}
+
+
+
+
+\begin{document}
+
+\newcommand{\df}[2]{\textcolor{red}{\underline{#1}: #2}}
+
+\newcommand{\doc}[1]{
+\begin{flushright}
+\fbox{Documents : #1}
+\end{flushright}
+}
+
+\newcommand{\con}[1]{\textcolor{blue}{\underline{Consigne}: #1}}
+
+\newcommand{\rep}[1]{\textcolor{green}{\underline{Réponse}: #1}}
+
+
+\begin{frame}
+\begin{figure}
+
+\includegraphics[width=5cm]{Alembert.jpg}
+
+\caption{Portrait de d'Alembert d'après Quentin de La Tour.
+(vers 1753)}
+\end{figure}
+
+
+
+\end{frame}
+
+\begin{frame}{Louis XV, roi de France}
+\begin{figure}
+\includegraphics[width=5cm]{Louis-15.jpg}
+\caption{Portrait par Louis-Michel van Loo}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+
+
+\begin{figure}
+\fbox{
+\begin{minipage}{11cm}
+Fruit d'un amour illégitime entre la célèbre femme de lettres Claudine Guérin de Tencin et le chevalier Louis-Camus Destouches [...], Jean le Rond D'Alembert naît le 16 novembre 1717 à Paris. Le lendemain, il est abandonné par sa mère qui le fait porter sur les escaliers de la chapelle Saint-Jean-le-Rond, attenant à la tour nord de Notre-Dame-de-Paris. Comme le veut la coutume, il est nommé du nom du saint de la chapelle et devient Jean Le Rond. Il est d'abord placé à l'hospice des Enfants-Trouvés, mais son père le retrouve rapidement et le place dans une famille d'adoption.
+
+\begin{flushright}
+www.wikipedia.org
+\end{flushright}
+
+\end{minipage}
+}
+
+\caption{Naissance de Jean le Rond d'Alembert}
+\end{figure}
+\end{frame}
+
+
+
+\begin{frame}
+\begin{figure}
+\fbox{
+\begin{minipage}{11cm}
+A 21 ans, il présente à l'Académie des Sciences, son premier travail en mathématique [...]. Dès 1742, à 24 ans, il est nommé adjoint de la section d’Astronomie de l’Académie des sciences. \\
+Ami de Voltaire, il est aussi un homme de lettres. Il dirige la rédaction de l'Encyclopédie avec Diderot.En 1754, D’Alembert est élu membre de l’Académie française, dont il deviendra le secrétaire perpétuel le 9 avril 1772. 
+\begin{flushright}
+www.wikipedia.org
+\end{flushright}
+
+\end{minipage}
+}
+
+\caption{Un homme cultivé de son temps.}
+\end{figure}
+\end{frame}
+
+
+
+
+
+
+
+
+
+
+\begin{frame}
+\fbox{
+\begin{minipage}{11cm}
+"Le but d'une encyclopédie est de rassembler les connaissances éparses sur la surface de la terre, d'en exposer le système général aux hommes avec qui nous vivons et de le transmettre aux hommes qui viendront après nous. J'ai dit qu'il n'appartenais qu'à un siècle de philosophe de tenter une encyclopédie et je le dis parce que cet ouvrage demande partout plus de hardiesse dans l'esprit qu'on en a communément. Il faut tout examiner, tout remuer sans exception et sans ménagement. Il faut fouler aux pieds toutes ces vieilles puérilités, renverser les barrières que la raison n'aura point posées, rendre aux sciences et aux arts une liberté précieuse."
+
+\begin{flushright}
+Diderot et d'Alembert, prospectus de l'Encylcopédie, 1750
+\end{flushright}
+\end{minipage}
+
+}
+\end{frame}
+
+  \end{document}

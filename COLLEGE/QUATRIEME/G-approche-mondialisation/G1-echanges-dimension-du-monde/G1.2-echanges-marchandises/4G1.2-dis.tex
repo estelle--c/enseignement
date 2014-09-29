@@ -1,0 +1,51 @@
+\documentclass[12pt]{article}
+\usepackage{fontspec}
+\usepackage{xltxtra}
+\setmainfont[Mapping=tex-text]{Century Schoolbook L}
+\usepackage[francais]{babel}
+\usepackage{geometry}
+\geometry{ hmargin=0.5cm, vmargin=0.5cm }
+\usepackage{ifthen}
+\makeatletter
+\renewcommand\section{\@startsection
+{section}{1}{0mm}
+{\baselineskip}
+{0.5\baselineskip}
+{\normalfont\normalsize\textbf}}
+\makeatother
+\begin{document}
+\begin{large}
+\newboolean{Professeur}
+%\setboolean{Professeur}{true} % « true» (vrai) si le document est le document du professeur (sans trous). « Professeur » a la valeur « false » par défaut. Il faut donc décommenter la ligne pour mettre « Professeur » à « true »
+\newcommand{\Trouer}[1]{
+\ifthenelse{\boolean{Professeur}} % si « Professeur » est vrai,
+{\textbf{#1}} %les mots cachés sont en gras
+{\underline{\phantom{#1.5}}} % (else) sinon les mots sont remplacés par une ligne sur laquelle l'élève peut écrire.
+}
+
+D'Alembert a plusieurs métiers : \Trouer{mathématicien}, \Trouer{philosophe}, \Trouer{lettrés...}. Il participe au cercle de ces \Trouer{bourgeois urbains} qui réfléchissent à la \Trouer{société}. Il est ami avec tous les grands penseurs influents de son temps dont \Trouer{Voltaire} et \Trouer{Diderot}.
+
+\vfill
+
+Au XVIIIe siècle, les \Trouer{intellectuels et savants} discutent des idées nouvelles dans de nombreux lieux de rencontres : des \Trouer{salons} comme celui de Mme Geoffrin, des \Trouer{académies}... Des savants de toute l'\Trouer{Europe} participent à ses réunion. Cela permet de diffuser les nouvelles idées.
+
+\vfill
+
+Parmi les livres qui permettent de diffuser les idées nouvelles, l'\Trouer{Encyclopédie} est le plus important. Ecrit par \Trouer{Diderot} et \Trouer{d'Alembert} en langue française, il est vendu en nombre restreint, mais dans toute l'Europe. Il finit par être \Trouer{censuré} par le roi de France.
+
+
+\vfill
+
+D'Alembert a plusieurs métiers : \Trouer{mathématicien}, \Trouer{philosophe}, \Trouer{lettrés...}. Il participe au cercle de ces \Trouer{bourgeois urbains} qui réfléchissent à la \Trouer{société}. Il est ami avec tous les grands penseurs influents de son temps dont \Trouer{Voltaire} et \Trouer{Diderot}.
+
+\vfill
+
+Au XVIIIe siècle, les \Trouer{intellectuels et savants} discutent des idées nouvelles dans de nombreux lieux de rencontres : des \Trouer{salons} comme celui de Mme Geoffrin, des \Trouer{académies}... Des savants de toute l'\Trouer{Europe} participent à ses réunion. Cela permet de diffuser les nouvelles idées.
+
+\vfill
+
+Parmi les livres qui permettent de diffuser les idées nouvelles, l'\Trouer{Encyclopédie} est le plus important. Ecrit par \Trouer{Diderot} et \Trouer{d'Alembert} en langue française, il est vendu en nombre restreint, mais dans toute l'Europe. Il finit par être \Trouer{censuré} par le roi de France.
+
+
+\end{large}
+\end{document}
