@@ -1,0 +1,121 @@
+\documentclass[a4paper,12pt]{exam}
+
+\printanswers % Pour ne pas imprimer les réponses (énoncé)
+\addpoints % Pour compter les points
+\pointsinrightmargin % Pour avoir les points dans la marge à droite
+%\bracketedpoints % Pour avoir les points entre crochets
+%\nobracketedpoints % Pour ne pas avoir les points entre crochets
+\pointformat{.../\textbf{\themarginpoints}}
+% \noaddpoints % pour ne pas compter les points
+%\qformat{\textbf{Question\thequestion}\quad(\thepoints)\hfill} % Pour définir le style des questions (facultatif)
+%\qformat{\thequestiontitle \dotfill \thepoints}
+
+
+\usepackage{fontspec}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{wasysym}
+\usepackage{marvosym}
+\usepackage{cwpuzzle}
+  \usepackage{graphicx}
+\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont{Linux Libertine}
+\setmainfont{Century Schoolbook L}
+%\usepackage[margin=1cm]{geometry}
+    \usepackage[francais]{babel}
+    \title{DS - Histoire - Les débuts de l'Islam}
+   \usepackage[left=0.5cm,right=2cm,top=0.5cm,bottom=0.5cm]{geometry}
+     
+    % Si on imprime les réponses
+    \ifprintanswers
+    \newcommand{\rep}[1]{}
+    \newcommand{\chariot}{}
+    \else
+    \newcommand{\rep}[1]{\fillwithdottedlines{#1}}
+    \newcommand{\chariot}{\newpage}
+    \fi
+
+
+\makeatletter
+\renewcommand\section{\@startsection
+{section}{1}{0mm}    
+{\baselineskip}
+{0.5\baselineskip}
+{\normalfont\normalsize\textbf}}
+\makeatother
+%\usepackage{titling}
+%\renewcommand{\maketitlehooka}
+
+ 
+\begin{document}
+
+\begin{minipage}{4cm}
+  Nom :
+  
+  Prénom :
+  
+  Classe : 
+  
+  Date : 
+\end{minipage}
+\hfill
+\begin{minipage}{3.5cm}
+
+{\small \begin{questions} \question[1] Orthographe et expression
+\question[1] Présentation \end{questions}
+}
+\end{minipage}
+
+
+\vspace{1cm}
+
+\begin{center}
+
+{\Large DS - Histoire - Les Lumières}
+
+\vspace{0.5cm}
+  \end{center}
+
+ \hfill {\large …/\numpoints\ } %\quad\quad …/\textbf{20}
+
+Attention, tu dois rédiger des phrases pour répondre aux questions. Tu n'auras pas les points si ce n'est pas le cas.
+
+
+
+\begin{questions}
+\section{Je sais rédiger un texte bref, cohérent (compétence C1)}
+ 
+ \question[4] Raconte un épisode marquant de la vie de Jean le Rond d'Alembert. Explique en quoi il est révélateur du siècle des Lumières.
+ 
+ \begin{solution}
+ \vspace{3cm}
+ \end{solution}
+ 
+ \section{Je sais étudier un document.}
+ 
+ \includegraphics[width=19cm]{doc3.jpg}
+ 
+ \question[4] Présente le document
+  
+  \begin{solution}
+  \vspace{3cm}
+  \end{solution}
+
+ \question[3] Explique ce qu'est un "salon" et son rôle dans la diffusion des nouvelles idées.
+  
+  \begin{solution}
+  \vspace{3cm}
+  \end{solution}
+ 
+ 
+ \question[2] Prend deux intellectuels présents et explique leur rôle.
+  
+  \begin{solution}
+  \vspace{3cm}
+  \end{solution}
+ 
+ 
+ 
+ \end{questions}
+ 
+\end{document}
